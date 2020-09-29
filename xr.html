@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        
+    </ul>
+    <script>
+        let ul = document.querySelector('ul')
+        let str = ''
+        let json = [
+            {name:"hmw",aihao:"吃饭"},
+            {name:"qg",aihao:"睡觉"},
+            {name:"brr",aihao:"打豆豆"},
+            {name:"zqd",aihao:"唱歌"}
+        ]
+        for(let i=0;i<json.length;i++){
+            str+=`
+            <li>
+            名字：<span>${json[i].name}</span>
+            爱好：<span>${json[i].aihao}</span>
+        </li>
+            `
+        }
+        console.log(str)
+    </script>
+</body>
+</html>
