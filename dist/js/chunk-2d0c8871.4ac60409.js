@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c8871"],{"54ea":function(t,n,e){"use strict";e.r(n);var o=function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("div",[e("van-nav-bar",{attrs:{title:"课程订单","left-arrow":""},on:{"click-left":t.onClickLeft}})],1)},c=[],l={methods:{onClickLeft:function(){this.$router.go("-1")}},mounted:function(){this.$Net.ke().then((function(t){console.log(t)}))}},i=l,u=e("2877"),r=Object(u["a"])(i,o,c,!1,null,null,null);n["default"]=r.exports}}]);
-//# sourceMappingURL=chunk-2d0c8871.4ac60409.js.map
